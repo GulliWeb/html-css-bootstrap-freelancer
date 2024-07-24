@@ -1,0 +1,16 @@
+*{
+    border: 2px dashed black;
+}
+
+/* Header */
+
+header .container{
+    height: 100px;
+}
+
+header ul li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
