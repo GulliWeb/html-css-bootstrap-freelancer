@@ -24,3 +24,7 @@ img{
     background-color: aquamarine;
 }
 
+#jumbotron img{
+    width: 150px;
+}
+
