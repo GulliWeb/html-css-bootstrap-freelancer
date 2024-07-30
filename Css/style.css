@@ -1,6 +1,3 @@
-*{
-    border: 2px dashed black;
-}
 
 /* Header */
 
@@ -12,5 +9,18 @@ header ul li{
     text-decoration: none;
     list-style-type: none;
     margin-right: 10px;
+}
+
+header a{
+    color: white;
+}
+
+/* Img */
+img{
+    max-width: 100%;
+}
+
+#jumbotron{
+    background-color: aquamarine;
 }
 

@@ -12,76 +12,133 @@
 <body>
     <!-- Header-->
     <header>
-        <div class="container">Header</div>
+        <nav class="navbar navbar-expand-lg navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <!-- Jumbotron -->
      <section id="jumbotron" class="container">
         <div class="row">
-            <div class="col">Jumbotron</div>
+            <div class="col col-12 d-flex justify-content-center">
+                <div class="img-card">
+                    <img src="img/avatar.svg" alt="">
+                </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <h2 style="color: white;">START BOOSTRAP</h2>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <p style="color: white;">GRAPHIC ARTIST-WEB DESIGNER-OLLUSTRATORS</p>
+            </div>
         </div>
      </section>
 
      <!--Portfolio -->
-     <section id="portfolio">
+     <section id="portfolio" style="margin-top: 20px;  margin-bottom: 20PX;">
         <div class="container">
             <div class="row">
-                <div class="col-12">Portfolio & star </div> 
+                <div class="col-12 d-flex justify-content-center">
+                    <h2>PORTFOLIO</h2>
+                </div> 
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">img</div>
-                <div class="col-12 col-md-6 col-lg-4">img</div>
-                <div class="col-12 col-md-6 col-lg-4">img</div>
-                <div class="col-12 col-md-6 col-lg-4">img</div>
-                <div class="col-12 col-md-6 col-lg-4">img</div>
-                <div class="col-12 col-md-6 col-lg-4">img</div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/cabin.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/cake.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/circus.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/game.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/safe.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4"><img src="img/submarine.png" alt=""></div>
             </div>
         </div>
      </section>
 
      <!-- About-->
-      <section id="about">
+      <section id="about" style="background-color: aquamarine; margin-bottom: 20px;">
         <div class="container">
             <div class="row">
-                <div class="col">About & star</div>
+                <div class="col d-flex justify-content-center">
+                    <h2 style="color: white;">ABOUT</h2>
+                </div>
             </div>
             <div class="row">
                 <div class="offset-1 col-10 col-md-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae possimus fugit beatae quo a optio soluta quas dolorem ea. Laborum unde ducimus corporis tempora totam velit eveniet, eaque mollitia maxime!
+                    <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, quod obcaecati non impedit deserunt, consequatur quae quidem rem in, molestiae quisquam veniam? Quos quidem rerum accusamus hic reprehenderit consequuntur sed.</p>
                 </div>
                 <div class="offset-1 col-10 offset-md-0 col-md-5">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corrupti unde facere ipsum, ratione libero commodi magni ut ad dolores pariatur soluta modi tempora officiis laudantium temporibus accusantium id ducimus!
+                    <p style="color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel doloribus in dicta voluptatem rerum ipsa dolorum reprehenderit laborum, odit ea, minus excepturi quasi? Eligendi voluptatum explicabo dignissimos! Vero, minima est.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col">Button</div>
+                <div class="col d-flex justify-content-center">
+                    <button style="background-color: aquamarine; color: white;">Download</button>
+                </div>
             </div>
         </div>
       </section>
 
       <!-- Contact me-->
-       <section id="contacts">
+       <section id="contacts" style="margin-bottom: 20px;">
         <div class="container">
             <div class="row">
-                <div class="col">Contacts & star</div>
+                <div class="col d-flex justify-content-center">
+                    <h2>CONTACT ME</h2>
+                </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col col-lg-8">FORM</div>
+                <div class="col col-lg-8">Name</div>
+                <div class="col col-lg-8">Email</div>
+                <div class="col col-lg-8">Phone Number</div>
+                <div class="col col-lg-8">Message</div>
             </div>
         </div>
        </section>
 
        <!-- Footer -->
         <footer>
-            <div class="footer-top container">
+            <div class="footer-top container" style="background-color: skyblue;">
                 <div class="row">
-                    <div class="col-12 col-md-4">Location</div>
-                    <div class="col-12 col-md-4">Around the web</div>
-                    <div class="col-12 col-md-4">About freelancer</div>
+                    <div class="col-12 col-md-4">
+                        <p style="color: white;">LOCATION</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <p style="color: white;">AROUND THE WEB</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <p style="color: white;">ABOUT FREELANCER</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="footer-bottom container-fluid">
+            <div class="footer-bottom container-fluid" style="background-color: darkcyan;">
                 <div class="row">
                     <div class="col">Copyright</div>
                 </div>
